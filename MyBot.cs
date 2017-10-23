@@ -45,7 +45,7 @@ namespace Akebono
 
             discord.ExecuteAndWait(async () =>
                 {
-                    await discord.Connect("MjkxNDA4OTA4NDk5NTUwMjA4.C6qAIQ.oG6I_1ncA1BjAjtL6lQEhuNGzXk", TokenType.Bot); //bot token 
+                    await discord.Connect("yourr bot token", TokenType.Bot); //bot token 
                 });
         }
 
